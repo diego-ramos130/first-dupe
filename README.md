@@ -3,6 +3,7 @@
 
 ## Overview
 Given a string, returns the first duplicate word in the string from left to right. if nothing else, just returns undefined.
+![WHITEBOARD PROCESS](src/assets/20181016_152910.jpg)
 
 ## Usage
 Requires: NodeJS and NPM (as well as git).
