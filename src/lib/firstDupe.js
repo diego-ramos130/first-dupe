@@ -10,12 +10,7 @@ module.exports = function firstDupe(string) {
     if (myMap.get(split[i])) {
       return split[i];
     }
-    myMap.set(split[i]);
+    myMap.set(split[i], true);
   }
   return undefined;
 };
-
-firstDupe('cat dog cat dog');
-firstDupe('no words duplicated so should return undefined');
-firstDupe('');
-firstDupe('onewordsoshouldreturnundefined');
